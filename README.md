@@ -1,122 +1,347 @@
-# Django LMS (Learning Management System)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Python](https://img.shields.io/badge/Python-3.12%2B-brightgreen)](https://www.python.org/)
-[![Django](https://img.shields.io/badge/Django-4.2%2B-brightgreen)](https://www.djangoproject.com/)
+# 📚 Library Management System
 
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.12+-brightgreen)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-5.1+-brightgreen)](https://www.djangoproject.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5-purple)](https://getbootstrap.com/)
+[![SQLite](https://img.shields.io/badge/Database-SQLite-blue)](https://www.sqlite.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-fahim202342-black)](https://github.com/fahim202342)
 
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="40" height="40" /> <img src="https://techstack-generator.vercel.app/django-icon.svg" alt="icon" width="40" height="40" />
+<p align="center">
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" width="60">
+  <img src="https://techstack-generator.vercel.app/django-icon.svg" width="60">
+</p>
 
-Welcome to the Django LMS project! This project aims to provide a comprehensive learning management system with features like user profiles, messaging, notifications, job listings, groups, followers, events, courses, connections, companies, and certifications.
+<h1 align="center">📚 Library Management System</h1>
 
-## Project Under Development....🥶🥱😴
-<img src="https://github.com/AbdullahBakir97/AbdullahBakir97/blob/main/assets/tech.gif" alt="Tech" width="100"> 
+<p align="center">
+A modern Library Management System built with Django to manage books, members, borrowing, returns, fines, and reports efficiently.
+</p>
 
-**Note**: This project is currently under development. Stay tuned for upcoming features and enhancements.
+---
 
-# Overview
+# 🚀 Project Status
 
-Django LMS is a sophisticated learning management system crafted using Django, a high-level Python web framework. LMS platform is meticulously engineered to provide users with a seamless experience in managing various aspects of their educational and professional journeys. Whether you're an educator, a student, or a professional seeking growth opportunities, Django LMS offers a comprehensive suite of features to meet your needs.
+> **Project Under Development**
 
-## Features
-![scrnli_13_06_2024_22-49-11](https://github.com/AbdullahBakir97/Django--LMS--Learning-Management-System/assets/127149804/fd107a30-91ef-435b-9ef7-fcf41ba51ec5)
-![scrnli_13_06_2024_22-49-51](https://github.com/AbdullahBakir97/Django--LMS--Learning-Management-System/assets/127149804/5767e11a-c74e-49f6-8cfb-ae59face77d0)
-![myapp_models](https://github.com/AbdullahBakir97/Django--LMS--Learning-Management-System/assets/127149804/a614b491-a5ef-4a82-adc0-fd68b76a9b16)
-![uml_diagram](https://github.com/user-attachments/assets/ec3ec67f-0336-4ae3-80ce-644a4a7e43df)
+This project is actively being developed. New features and improvements are added regularly.
 
+---
 
-### User Profiles
-- **👤 Detailed Profiles**: Users can create comprehensive profiles showcasing their skills, experiences, and endorsements.
-- **✏️ Customizable**: Personalize your profile to highlight your unique strengths and achievements.
-- **🤝 Networking**: Connect with other users and expand your professional network effortlessly.
+# 👨‍💻 Developer
 
-### Messaging and Notifications
-- **💬 Real-time Communication**: Seamlessly communicate with other users through our messaging system.
-- **🔔 Instant Notifications**: Stay informed about important updates, messages, and activities with our robust notification system.
+**Md Fahim Alam**
 
-### Job Listings and Applications
-- **💼 Career Opportunities**: Explore a wide range of job listings tailored to your skills and preferences.
-- **📝 Efficient Applications**: Apply for jobs directly through our platform and track your application status effortlessly.
+GitHub Profile
 
-### Group Management
-- **👥 Create and Join Groups**: Form communities based on shared interests, goals, or affiliations.
-- **🤝 Collaboration**: Collaborate with group members on projects, discussions, and events.
+https://github.com/fahim202342
 
-### Follower System
-- **📈 Build Your Network**: Grow your network by following other users and staying updated on their activities.
-- **💬 Engagement**: Interact with followers through posts, comments, and shared content.
+---
 
-### Events Management
-- **📅 Organize Events**: Plan and manage events such as workshops, webinars, and conferences seamlessly.
-- **📊 Attendance Tracking**: Keep track of event attendance and engagement effortlessly.
+# 📖 Overview
 
-### Course Management
-- **🎓 Wide Range of Courses**: Enroll in a diverse selection of courses spanning various topics and disciplines.
-- **📈 Track Progress**: Monitor your course progress and achievements as you work towards completion.
+The **Library Management System** is a complete web-based application developed using **Python** and **Django**.
 
-### Connection Requests and Recommendations
-- **🤝 Expand Your Network**: Send connection requests to other users and expand your professional circle.
-- **👍 Recommendations**: Receive and provide recommendations to enhance your professional credibility.
+It helps libraries manage books, students, librarians, borrowing records, returns, overdue fines, and reports through an easy-to-use dashboard.
 
-### Company Profiles and Updates
-- **🏢 Company Profiles**: Explore detailed profiles of companies, including information about their culture, mission, and career opportunities.
-- **📰 Stay Updated**: Receive updates and announcements from companies you follow, keeping you informed about new developments and job openings.
+The system is designed for schools, colleges, universities, and public libraries.
 
-### Certification Management
-- **📜 Manage Certifications**: Keep track of your certifications, including issue dates, expiration dates, and related courses or jobs.
-- **🔍 Credential Verification**: Verify the authenticity of certifications and share them with potential employers or collaborators.
+---
 
+# ✨ Features
 
-## Setup Instructions
+## 📚 Book Management
 
-To set up this project locally, follow these steps:
+- Add Books
+- Edit Books
+- Delete Books
+- Book Categories
+- Authors
+- Publishers
+- ISBN Number
+- Book Copies
+- Book Availability
 
-1. **Clone the repository:**
+---
 
-    ```bash
-    git clone https://github.com/AbdullahBakir97/Django--LMS--Learning-Management-System.git
-    cd Django--LMS--Learning-Management-System
-    ```
+## 👨‍🎓 Student Management
 
-2. **Create a virtual environment:**
+- Student Registration
+- Student Login
+- Student Profile
+- Update Information
 
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+---
 
-3. **Install dependencies:**
+## 👨‍💼 Librarian Management
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+- Librarian Login
+- Manage Books
+- Manage Members
+- Issue Books
+- Return Books
 
-4. **Apply migrations:**
+---
 
-    ```bash
-    python manage.py migrate
-    ```
+## 🔄 Borrow & Return
 
-5. **Create a superuser:**
+- Borrow Books
+- Return Books
+- Borrow History
+- Due Date
+- Overdue Tracking
 
-    ```bash
-    python manage.py createsuperuser
-    ```
+---
 
-6. **Run the development server:**
+## 💰 Fine Management
 
-    ```bash
-    python manage.py runserver
-    ```
+- Automatic Fine Calculation
+- Payment History
+- Fine Reports
 
-7. **Access the application:**
+---
 
-    Open your web browser and go to [http://localhost:8000](http://localhost:8000)
+## 🔍 Search System
 
+- Search by Book Name
+- Search by Author
+- Search by Category
+- Search by ISBN
 
+---
 
+## 📊 Dashboard
 
-# Contributing
-Contributions are welcome! Please read our [contributing guidelines](CONTRIBUTING.md) for more information.
+- Total Books
+- Total Members
+- Borrowed Books
+- Returned Books
+- Overdue Books
+- Fine Statistics
 
-# License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+---
+
+## 🔐 Authentication
+
+- Login
+- Logout
+- Admin Panel
+- Role Based Access Control
+
+---
+
+## 📧 Notifications
+
+- Due Date Reminder
+- Return Reminder
+- Fine Notification
+
+---
+
+# 🛠 Technology Stack
+
+- Python 3.12+
+- Django 5+
+- HTML5
+- CSS3
+- Bootstrap 5
+- JavaScript
+- SQLite
+- Django ORM
+- Git & GitHub
+
+---
+
+# 📂 Project Structure
+
+```
+Library_Management_System/
+│
+├── accounts/
+├── books/
+├── borrow/
+├── members/
+├── dashboard/
+├── templates/
+├── static/
+├── media/
+├── library_management/
+├── requirements.txt
+├── manage.py
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/fahim202342/Library_Management_System.git
+```
+
+```bash
+cd Library_Management_System
+```
+
+---
+
+## Create Virtual Environment
+
+Windows
+
+```bash
+python -m venv venv
+```
+
+Activate
+
+```bash
+venv\Scripts\activate
+```
+
+Linux / Mac
+
+```bash
+python3 -m venv venv
+```
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Apply Migrations
+
+```bash
+python manage.py makemigrations
+
+python manage.py migrate
+```
+
+---
+
+## Create Superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+---
+
+## Run Server
+
+```bash
+python manage.py runserver
+```
+
+Open your browser
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+# 📸 Screenshots
+
+You can add screenshots here.
+
+```
+screenshots/
+
+dashboard.png
+
+login.png
+
+books.png
+
+borrow.png
+```
+
+---
+
+# 📈 Future Features
+
+- Barcode Scanner
+- QR Code Support
+- Email Notifications
+- PDF Report
+- Excel Export
+- Book Reservation
+- Online Book Reading
+- AI Book Recommendation
+- Dark Mode
+- REST API
+- Docker Support
+- PostgreSQL Support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork Repository
+
+2. Create Feature Branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit Changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature-name
+```
+
+5. Create Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+Copyright © 2026 **Md Fahim Alam**
+
+See the **LICENSE** file for more information.
+
+---
+
+# ⭐ Support
+
+If you like this project,
+
+⭐ Star this repository
+
+🍴 Fork this repository
+
+💙 Follow me on GitHub
+
+https://github.com/fahim202342
+
+---
+
+<p align="center">
+
+Made with ❤️ by <b>Md Fahim Alam</b>
+
+</p>
